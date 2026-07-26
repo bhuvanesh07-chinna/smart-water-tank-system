@@ -42,3 +42,9 @@ Notes:
 - Pump is force-stopped if sump level ≤ 20% (dry-run protection) or tank sensor gives an invalid reading.
 - Water quality is smoothed with a 5-sample moving average; only 5 consecutive out-of-range readings raise the alarm (LED + buzzer), filtering out single-sample spikes.
 - A rising tank level while the pump is OFF is logged as a possible tanker/external fill event.
+
+## Demo Video
+
+[![Watch the demo](demo_video.mp4)
+
+Click the image above to watch the demo, or check `docs/demo.mp4` in this repo.
